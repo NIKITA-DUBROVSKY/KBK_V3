@@ -41,7 +41,6 @@ uint32_t	serial = 0;
 
 #define blink_time_on 	80
 #define blink_time_off 	10
-#define test_GIT 	TRUE
 
 void save_params(void);
 void Read_sensor_LEP(void);
