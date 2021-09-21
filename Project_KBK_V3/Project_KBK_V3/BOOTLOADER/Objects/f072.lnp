@@ -1,0 +1,25 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\hd44780.o"
+".\objects\stm32f0xx_adc.o"
+".\objects\stm32f0xx_can.o"
+".\objects\stm32f0xx_dma.o"
+".\objects\stm32f0xx_flash.o"
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_i2c.o"
+".\objects\stm32f0xx_misc.o"
+".\objects\stm32f0xx_rcc.o"
+".\objects\stm32f0xx_spi.o"
+".\objects\stm32f0xx_tim.o"
+".\objects\stm32f0xx_usart.o"
+".\objects\stm32f0xx_iwdg.o"
+".\objects\stm32f0xx_crc.o"
+".\objects\spi_msd_driver.o"
+".\objects\diskio.o"
+".\objects\ff.o"
+".\objects\startup_stm32f072xb.o"
+".\objects\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter ".\Objects\f072.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\f072.map" -o .\Objects\f072.axf
