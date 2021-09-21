@@ -31,6 +31,7 @@
 
 uint16_t password = 0xFFFF;
 uint16_t password2 =  0xFFFF;
+#define blink_time_on_TEST 	80
 	
 uint8_t MessageDigest[CRL_MD5_SIZE];
 int32_t MessageDigestLength = 0;
